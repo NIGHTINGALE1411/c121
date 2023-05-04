@@ -1,0 +1,44 @@
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px lightseagreen;
+    font-family: 'Special Elite', cursive;
+    color: red;
+    background-color: lightskyblue;
+    
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius:50%;
+}
+.google{
+    box-shadow:5px 5px 5px rgb(6, 25, 85);
+    font-family: 'Special Elite', cursive;
+    color: blueviolet;
+    
+}
+.mobile{
+    box-shadow:5px 5px 5px rgb(8, 3, 59);
+    font-family: 'Special Elite', cursive;
+    color: blue;
+    
+}
+.test_images_and_results{
+   background-color: lightpink;
+}
+h5{
+    background-color: lightcoral;
+    box-shadow: 5px 5px 5px palevioletred;
+}
+.mini_result{
+    background-color:greenyellow;
+    font-family: 'Georgia', serif;
+    box-shadow: 5px 5px 5px forestgreen;
+  
+}
+h1{
+    background-color: aquamarine;
+     
+}

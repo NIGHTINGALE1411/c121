@@ -1,0 +1,113 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="bac.jpg">
+    <center>
+        <div class="heading">CASE STUDY between google lens and mobilenet</div>
+        <div class=" btn btn-info google">GOOGLE LENS
+            <span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr-r2FtG3XK1QreXNFDDqefVxr9h8wpfnask0zrfE0uQ&s"></span>
+        </div>
+      <P class="btn btn-success"> VS</P>
+       <div class=" btn btn-info mobile">Mobilenet
+        <span> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyCMi8GkYQy4hUx9N5kYBM5Vu-wTabwPoa9SYqRa5f_g&s"></span>
+     </div>
+    </center>
+    <ol>
+        <div class="test_images_and_results col-xs-12">
+            <li>
+                <b> Test-image:</b><img src="spoon.JPEG" class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12"> 
+                Output on<i> GOOGLE LENS</i>- cutlery
+            <span></span>
+        </h5>
+<br><br>
+        <h5 class="col-sm-4 col-xs-12">
+            Output on<i> Mobilenet Model</i>- spatula,ladle
+            <span></span>
+        </h5>
+        <br><br>
+        <div class="mini_result" class="col-xs-12">
+            <h4>Result- Mobilenet is more accurate</h4>
+            <hr>
+            <h4></h4>
+        </div>
+<br>
+        
+<li>
+    <b> Test-image:</b><img src="scissors (1).JPEG" class="img-responsive">
+</li>
+<h5 class="col-sm-4 col-xs-12">
+    Output on<i> GOOGLE LENS</i>- scissor
+<span></span>
+</h5>
+<br><br>
+<h5 class="col-sm-4 col-xs-12">
+Output on<i> Mobilenet Model</i>- hook, claw
+<span></span>
+</h5>
+<br><br>
+<div class="mini_result" class="col-xs-12">
+<h4>Result- Google lens is more accurate </h4>
+<hr>
+<h4></h4>
+</div>
+<br>
+<li>
+    <b> Test-image:</b><img src="watch.JPEG" class="img-responsive">
+</li>
+<h5 class="col-sm-4 col-xs-12">
+    Output on<i> GOOGLE LENS</i>- apple watch
+<span></span>
+</h5>
+<br><br>
+<h5 class="col-sm-4 col-xs-12">
+Output on<i> Mobilenet Model</i>-  digital clock
+<span></span>
+</h5>
+<br><br>
+<div class="mini_result" class="col-xs-12">
+<h4>Result- Googe lens is more accurate</h4>
+<hr>
+<h4></h4>
+</div>
+<br>
+<li>
+    <b> Test-image:</b><img src="bottle.JPEG" class="img-responsive">
+</li>
+<h5 class="col-sm-4 col-xs-12">
+    Output on<i> GOOGLE LENS</i>- tupperware water bottle
+<span></span>
+</h5>
+<br><br>
+<h5 class="col-sm-4 col-xs-12">
+Output on<i> Mobilenet Model</i>- water bottle
+<span></span>
+</h5>
+<br><br>
+<div class="mini_result" class="col-xs-12">
+<h4>Result- Google lens is more accurate</h4>
+<hr>
+<h4></h4>
+</div>
+</div>
+<hr>
+<h1> Final Result: I tested 4 objects: spoon, scissor, watch, bottle in GOOGLE LENS and MOBILENET for this case study. 3 out 4 objects was identified accurately by GOOGLE LENS.
+    Hence, GOOGLE LENS is more accurate!
+
+
+    
+</h1>
+</ol>
+</body>
+
